@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripulação | Turismo Espacial</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/tripulacao.css">
+</head>
+<body id="corpo-tripulacao">
+    <header class="cabecalho mt-4 ps-3 ">
+        <nav class="navbar navbar-expand-lg align-items-center">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><h1><img src="./assets/shared/logo.svg" alt="Estrela" class="logo"></h1></a>
+                <button class=" baground-menu navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="./assets/shared/icon-hamburger.svg"></span>
+                </button>
+                <article class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link active fonte-especial text-white" aria-current="page" href="./index.html"><strong class="text-white">00</strong> Início</a>
+                    </li>
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link fonte-especial text-white" href="./destinos.html"><strong>01</strong> Destinos</a>
+                    </li>
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link fonte-especial text-white" href="./tripulacao.html"><strong>02</strong> Tripulação</a>
+                    </li>
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link fonte-especial text-white" href="./equipamentos.html"><strong>03</strong> Equipamentos</a>
+                    </li>
+                    </ul>
+                </article>
+            </div>
+          </nav>
+    </header>
+    <main class="principal-tripulacao espacamento-superior">
+        <div class="container px-4 ">
+            <div class="row gx-5">       
+                <section class="mb-5">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" data-tripulante="comandante" checked>
+                        <label class="form-check-label fonte text-white" for="inlineRadio1">COMANDANTE</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" data-tripulante="engenheiro">
+                        <label class="form-check-label fonte text-white" for="inlineRadio2">ENGENHEIRA</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" data-tripulante="piloto">
+                        <label class="form-check-label fonte text-white" for="inlineRadio3">PILOTO </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" data-tripulante="especialista">
+                        <label class="form-check-label fonte text-white" for="inlineRadio3">ESPECIALISTA </label>
+                    </div>
+                </section>         
+                <section class="col">
+                    <p class="fonte mt-2 text-white display-6" data-funcao>COMANDANTE</p>
+                    <h2 class="fonte display-2 fonte text-white mt-2" data-nome>Douglas Hurley</h2>
+                    <p class="descricao-tripulacao fonte text-white pb-5 pt-5" data-descricao> 
+                        Douglas Gerald Hurley é um engenheiro americano, ex-piloto do Corpo de Fuzileiros Navais
+                        e ex-astronauta da NASA. Ele foi lançado ao espaço pela terceira vez como
+                        comandante da Crew Dragon Demo-2.
+                    </p>
+
+
+                </section>
+                <section class="col">
+                    <article class="">
+                        <h2 class="titulo-imagem text-white fonte pb-5"><strong class="text-secondary">02</strong> CONHEÇA SUA TRIPULAÇÃO</h2>
+                        <figure ></figure>
+                        <img class="imagem-tripulacao" data-imagem src="./assets/crew/image-douglas-hurley.png" alt="Tripulante">
+                    </article>
+                </section>
+            </div>
+          </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./assets/js/tripulacao.js"></script>
+</body>
+</html>

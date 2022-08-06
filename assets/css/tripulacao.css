@@ -1,0 +1,13 @@
+#corpo-tripulacao{
+    background-image: url(../crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fonte{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.imagem-tripulacao{
+    width: 400px;
+    height: 450px;
+}

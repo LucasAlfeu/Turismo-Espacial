@@ -1,0 +1,21 @@
+#corpo-equipamentos{
+    background-image: url(../technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fonte{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.botao-equipamento{
+    border: none;
+}
+.imagem-equipamentos{
+    width: 515px;
+    height: 527px;
+}
+@media screen and (min-width:440px) {
+    .imagem-equipamentos{
+        width: 400px;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos | Turismo Espacial</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/equipamentos.css">    
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body id="corpo-equipamentos">
+    <header class="cabecalho mt-4 ps-3 ">
+        <nav class="navbar navbar-expand-lg align-items-center">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><h1><img src="./assets/shared/logo.svg" alt="Estrela" class="logo"></h1></a>
+                <button class=" baground-menu navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="./assets/shared/icon-hamburger.svg"></span>
+                </button>
+                <article class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link active fonte text-white" aria-current="page" href="./index.html"><strong class="text-white">00</strong> Início</a>
+                    </li>
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link fonte text-white" href="./destinos.html"><strong>01</strong> Destinos</a>
+                    </li>
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link fonte text-white" href="./tripulacao.html"><strong>02</strong> Tripulação</a>
+                    </li>
+                    <li class="nav-item item__lista me-5">
+                        <a class="nav-link fonte text-white" href="./equipamentos.html"><strong>03</strong> Equipamentos</a>
+                    </li>
+                    </ul>
+                </article>
+            </div>
+          </nav>
+    </header>
+
+    <main class="principal-destino espacamento-superior">
+        <div class="container px-4 ">
+            <div class="row gx-5">
+                <section class="col mb-5">
+                    <h2 class="titulo-imagem text-white fonte pb-5"><strong class="text-secondary">03</strong> LANÇAMENTO ESPACIAL 101</h2>
+                    <article class="dropdown">
+                        <button class="btn botao-equipamento dropdown-toggle text-white p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Mais Opções
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item fonte" href="#" data-equipamentos="veiculo-de-lancamento">Veículo de lançamento</a></li>
+                          <li><a class="dropdown-item fonte" href="#" data-equipamentos="espacoporto">Espaçoporto</a></li>
+                          <li><a class="dropdown-item fonte" href="#" data-equipamentos="capsula">Capsula Espacial</a></li>
+                        </ul>
+                    </article>
+                    <h2 class="fonte display-2 fonte text-white mt-2" data-titulo>VEÍCULO DE LANÇAMENTO</h2>
+                    <p class="descricao-equipamento fonte text-white pb-5 pt-5" data-descricao> 
+                        Um veículo lançador ou foguete transportador é um veículo propelido por foguete usado para transportar um
+                        carga útil da superfície da Terra para o espaço, geralmente para a órbita da Terra ou além. Nosso
+                        O foguete transportador WEB-X é o mais poderoso em operação. Com 150 metros de altura,
+                        é uma visão bastante inspiradora na plataforma de lançamento!
+                    </p>
+                </section>
+                <figure class="col">
+                    <article class="">                        
+                        <figure ></figure>
+                        <img class="imagem-equipamentos m-auto" src="./assets/technology/image-launch-vehicle-portrait.jpg" data-imagem alt="Foguete em lançamento">
+                    </article>
+                </figure>
+
+            </div>
+          </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./assets/js/equipamentos.js"></script>
+</body>
+</html>

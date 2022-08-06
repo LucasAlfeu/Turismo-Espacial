@@ -1,0 +1,36 @@
+#corpo-destinos{
+    background-image: url(../destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.principal-destino{
+    margin-top: 100px;
+}
+.imagem-destino{
+    background-image: url(../destination/image-moon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+.titulo-imagem{
+    font-size: 28px;
+}
+.fonte{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.descricao-destino{
+    font-size: 18px;
+    line-height: 32px;
+}
+.caracteristicas-destino{
+    border-color: #383B4B !important;
+}
+@media screen and (max-width: 440px) {
+    .imagem-destino{
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,61 @@
+#corpo-index{
+    background-image: url(../home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.baground-menu{
+    background: none;    
+}
+.espacamento-direito {
+    padding-right: 7rem;
+}
+.espacamento-superior{
+    margin-top: 200px;
+}
+.fonte-customizada-titulo{
+    font-size: 150px;
+}
+.fonte-customizada-1{
+    font-size: 28px;
+}
+.fonte-customizada-2{
+    font-size: 18px;
+}
+.botão-link{
+    border: none;
+    width: 274px;
+    height: 274px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.botão-link:hover{
+    transform: scale(120%);
+}
+.link-explorar {
+    text-decoration: none;
+}
+.dimensionamento{
+    width: 300px;
+}
+.item__lista:hover{
+    border-bottom: 2px solid white;
+}
+.rodape{
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 440px) {
+    .fonte-customizada-titulo{
+        font-size: 100px;
+    }
+    .espacamento-superior{
+        margin-top: 150px;
+    }
+    .rodape{
+        margin: 10px;
+    }
+}
